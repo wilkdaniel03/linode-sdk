@@ -16,3 +16,5 @@ impl Token {
         self.0.clone()
     }
 }
+
+pub struct Api;
