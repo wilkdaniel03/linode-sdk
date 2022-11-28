@@ -11,4 +11,8 @@ impl Token {
 
         Self(token)
     }
+
+    pub fn get_token(&self) -> String {
+        self.0.clone()
+    }
 }
